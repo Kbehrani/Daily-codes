@@ -25,20 +25,28 @@
 # random_list=[2.5,"hello",-5,2.5]
 # print(random_list)
 
-languages=["Python","C++","Java",".Net"]
-#print(languages)
+# languages=["Python","C++","Java",".Net"]
+# #print(languages)
 
-#index
-print(languages[1])
-#negative indexing
-print(languages[-3])
+# #index
+# print(languages[1])
+# #negative indexing
+# print(languages[-3])
 
-print(languages[0:3]) #starting index is inclusive, last in exclusive
-print(languages[1:3])
-print(languages[:3]) #blank starting index is read as 0
+# print(languages[0:3]) #starting index is inclusive, last in exclusive
+# print(languages[1:3])
+# print(languages[:3]) #blank starting index is read as 0
 
 #change items in a list
 
 #lists are mutable objects
-languages[1]="Ruby"
-print(languages)
+# languages[1]="Ruby"
+# print(languages)
+
+#iterate through list
+languages=["Python","C++","Java",".Net"]
+# print("Python" in languages)
+# print("Rust" in languages)
+
+for language in languages:
+    print(language)
