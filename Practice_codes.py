@@ -50,3 +50,10 @@ languages=["Python","C++","Java",".Net"]
 
 for language in languages:
     print(language)
+
+#list methods
+languages=["Python","C++","Java",".Net"]
+languages.append("Rust")
+print(languages)
+languages.insert(1,"Rust")
+print(languages)
