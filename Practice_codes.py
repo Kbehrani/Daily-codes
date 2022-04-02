@@ -37,3 +37,5 @@ print(languages[0:3]) #starting index is inclusive, last in exclusive
 print(languages[1:3])
 print(languages[:3]) #blank starting index is read as 0
 
+#learning new things daily
+
