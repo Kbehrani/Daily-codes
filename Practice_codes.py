@@ -54,6 +54,12 @@ for language in languages:
 #list methods
 languages=["Python","C++","Java",".Net"]
 languages.append("Rust")
-print(languages)
+# print(languages)
 languages.insert(1,"Rust")
 print(languages)
+
+languages.remove("Java")
+print(languages)
+
+languages1=languages.copy()
+print(languages1)
