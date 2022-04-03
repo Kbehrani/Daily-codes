@@ -1,3 +1,6 @@
+from msvcrt import kbhit
+
+
 text= "Hello there"
 print(text)
 
@@ -52,3 +55,4 @@ result2=text.find("Python") #index value from where python starts
 print(result2)
 result3=text.replace("Python 3","Java") #replace value of Python 3 with Java
 print(result3)
+
