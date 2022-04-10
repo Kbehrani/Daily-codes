@@ -24,3 +24,4 @@ person1["hobbies"]= ["dancing", "fishing"]
 for key in person1:
     print(key)
     print(person1[key])
+"finally"
