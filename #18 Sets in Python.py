@@ -16,5 +16,4 @@ animals={"dog","cat","tiger","elephant","dog"} #duplicate value would be removed
 animals.add("monkey")
 print(animals)
 
-now new 
-now what
+anything else
