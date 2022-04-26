@@ -21,3 +21,15 @@ wild_animals =["tiger","leopard", "elephant"]
 
 animals.update(wild_animals,{"dolphins"})
 print(animals)
+
+#discard method to remove 
+animals.discard("cat")
+print(animals)
+
+animals.remove("cat")
+print(animals)
+#to remove all
+animals.clear()
+print(animals)
+
+
