@@ -7,7 +7,7 @@
 
 
 import pandas as pd
-load=pd.read_excel('/Users/kavishabehrani/Documents/Python_files/Daily-codes/File1.xlsx')
+load=pd.read_excel('File1.xlsx')
 load.head()
 # df=pd.read_excel("File1.xlsx")
 # df.dtypes()
